@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Form validator</title>
+  <script src="https://kit.fontawesome.com/cfa042d5f0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="container">
+  <form id="form" class="form" autocomplete="off">
+    <h2>Register</h2>
+    <div class="form-control">
+      <label for="username">Username</label>
+      <input type="text" id="username" placeholder="John">
+      <small class="message-holder"></small>
+    </div>
+    <div class="form-control">
+      <label for="email">Email</label>
+      <input type="text" id="email" placeholder="john@example.com">
+      <small class="message-holder"></small>
+    </div>
+    <div class="form-control">
+      <label for="password">Password</label>
+      <div class="input-with-action-container">
+        <i id="action" class="far fa-eye"></i>
+        <input type="password" id="password" placeholder="**************">
+      </div>
+      <small class="message-holder"></small>
+    </div>
+    <button>Submit</button>
+  </form>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
