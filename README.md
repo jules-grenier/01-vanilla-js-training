@@ -2,4 +2,4 @@
 
 Project: form validator
 
-See the [demo]().
+See the [demo](https://granarycoder.github.io/01-vanilla-js-training/).
